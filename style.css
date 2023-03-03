@@ -123,6 +123,14 @@ article{
 
 @media screen and (max-width: 600px) {
   
+  .mobileimg{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_oAJ-mCT-HQEvmnVd95POZWWHYM4KLsGaqi_BJ2l9VETE8s0ROFcKP17efdzh2fh3GF8&usqp=CAU");
+  height: 300px;
+  border-radius: 25px 25px 0 0;
+ background-position: center bottom; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
   .container{
     display: flex;
     flex-direction: column;
@@ -149,13 +157,9 @@ article{
     text-align:center;
     font-size: 14px;
   }
+  body{
+    background-color:lightgreen;
+  }
 }
 
-.mobileimg{
-  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_oAJ-mCT-HQEvmnVd95POZWWHYM4KLsGaqi_BJ2l9VETE8s0ROFcKP17efdzh2fh3GF8&usqp=CAU");
-  height: 300px;
-  border-radius: 25px 25px 0 0;
- background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
